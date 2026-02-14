@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Room Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Campus Room Finder</h1>
+
+    <div class="card">
+        <label>Select Floor</label>
+        <select id="floorSelect">
+            <option value="">-- Select Floor --</option>
+            <option value="ground">Ground Floor</option>
+            <option value="first">First Floor</option>
+            <option value="second">Second Floor</option>
+            <option value="third">Third Floor</option>
+        </select>
+
+        <label>Select Room</label>
+        <select id="roomSelect" disabled>
+            <option value="">-- Select Room --</option>
+        </select>
+
+        <button id="showBtn">Show Direction</button>
+    </div>
+
+    <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
